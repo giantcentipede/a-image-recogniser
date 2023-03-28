@@ -1,0 +1,36 @@
+body{
+background:linear-gradient(rgb(0, 234, 255),rgb(208, 247, 255))
+}
+
+h1{
+    background-color: darkcyan;
+    
+}
+
+#show_sketch{
+    float: right;
+}
+#label{
+    font-size: 25px;
+}
+
+#confidence{
+    font-size: 25px;
+}
+
+canvas{
+   border-style:double;
+    border-color: black;
+    border-radius: 40px;
+    margin-top: 40px;
+    animation-name:bob ;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes bob{
+    from{box-shadow: 10px 5px 5px rgb(20, 23, 179);}
+    to{box-shadow: 10px 5px 5px rgb(200, 0, 255);}
+    
+}
